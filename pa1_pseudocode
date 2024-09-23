@@ -1,2 +1,47 @@
 Part 1
-  
+  Create Matrix:
+    Create matrices based on initial value, increase value, rows, columns, and whether to do rows or columns first
+    do this by creating a 2d array and inserting values based on a nested loop using 2 for loops
+    
+  Write matrix to txt
+    Open text and then go through nested for loop and write matrix values to txt file
+
+  main
+    create 4 matrices
+    write matrices to txt file
+    print first and last name with how many initials are in both
+
+
+Part 2
+  Read Matrix from txt
+    read in txt file and covert it into a matrix(2d array)
+
+  add matrices
+    adds 2 matrices by going through each value and adding them together. making a third matrix
+    check to see if matrices can be added together
+
+  write matrix to txt
+     Open text and then go through nested for loop and write matrix values to txt file
+
+  main
+    get 2 matrices from user
+    put both matrices in add matrices function
+    write new matrix to txt file
+
+Part 3
+
+  NOTE: I could not get numpy to work on my end, I tried many things including messaging the teacher and none of them have worked
+
+  Read Matrix from txt
+      read in txt file and covert it into a matrix(2d array) USING numpy.loadtxt()
+
+  add matrices
+    adds 2 matrices USING numpy.add()
+
+  write matrix to txt
+     Open text and write matrix to it USING numpy.tofile()
+
+  main
+    get 2 matrices from user
+    put both matrices in add matrices function
+    write new matrix to txt file
